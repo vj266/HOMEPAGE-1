@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertisers Account 1</title>
+    <script src="https://kit.fontawesome.com/7c7dcfab0a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family:sans-serif,"Poppins";
+    background-color: #E5E5E5;
+}
+.header{
+	width: 100%;
+	height: 4.5rem;
+	background: #E7E8EB;
+	mix-blend-mode: multiply;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-left: 31px;
+	padding-right: 33px;
+	margin-bottom: 18px;
+}
+.searchbox{
+    position:absolute;
+    left:475px;
+    width:350px;
+    height:85px;
+    top:25px;
+     }
+     input{
+        
+        height:32px;
+        width:90%;
+        padding:0px 25px;
+    }
+    .text{
+        margin-left:630px;
+        margin-top: 20px;
+        font-size:smaller;
+    }
+    .navigation-bar{
+        width:100%;
+        height:61px;
+        margin-top: 72px;
+        background-color:#233A6C;
+        position:absolute;
+        font-style: normal;
+        font-weight: 200;
+        left:0px;
+        top:0px;
+        right:0px;
+        text-align:center;
+    }
+    
+    
+    .navbar li{
+        color:white;
+        display:inline;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 44px 33px;
+        display:inline;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        }
+    
+    .navbar li a:hover{
+        text-decoration: black;
+    }
+    .icon{
+        margin-right: 90px;
+    }
+    select{
+        font-size: 14px;
+        padding: 6px;
+        position: absolute;
+        top:25px;
+        left:425px;
+        background-color: #E0E0E0;
+    }
+    .sicon{
+        position:absolute;
+        left:315px;
+        top:0px;
+        color: #E5E5E5;
+        cursor: pointer;
+    }
+    .sidebar{
+        float:left;
+        width:118px;
+        height:1088px;
+        background-color:#FFFFFF;
+        margin-left: 118px;
+        margin-top: 16px;
+    }
+    .grid{
+        position: absolute;
+        top:200px;
+        left:135px;
+        cursor: pointer;
+        color:#D00000;
+    }
+    .campaign{
+        position: absolute;
+        top:280px;
+        left:135px;
+        cursor: pointer;
+    }
+    .coupan{
+        position:absolute;
+        top:380px;
+        left:145px;
+    }
+    .chat{
+        position: absolute;
+        top:470px;
+        left:155px;
+    }
+    .traffic{
+        position: absolute;
+        top:560px;
+        left:150px;
+    }
+    .report{
+        position: absolute;
+        top:650px;
+        left:148px;
+    }
+    .arpdau{
+        position:absolute;
+        top:740px;
+        left:140px;
+    }
+    .user{
+        position:absolute;
+        top:830px;
+        left:155px;
+    }
+    .settings{
+        position:absolute;
+        top:920px;
+        left:145px;
+    }
+    .details{
+        position:absolute;
+        top:300px;
+        left:300px;
+    }
+    .chats{
+        position:absolute;
+        top:110px;
+        left:300px;
+    }
+    .campaigns{
+        position:absolute;
+        top:108px;
+        left:560px;
+    }
+    .arp{
+        position:absolute;
+        top:600px;
+        left:305px;
+    }
+    .charts{
+        position: absolute;
+        top:600px;
+        left:755px;
+    }
+    .ccc{
+        position: absolute;
+        top:935px;
+        left:305px;
+        
+    }
+    .barcharts{
+        position: absolute;
+        top:1070px;
+        left:300px;
+    }
+    .tokens{
+        position:absolute;
+        top:1385px;
+        left:305px;
+    }
+    .piecharts{
+        position:absolute;
+        top:1385px;
+        left:755px;
+    }
+    .footer{
+        position:absolute;
+        top:1785px;
+        left:70px;
+    }
+    .du{
+        position:absolute;
+        top:110px;
+        left:700px;
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="headerlogo">
+            <img src="logo addekho.svg" alt="no image">
+        </div>
+        <form action="">
+            <select name="all" id="">
+                <option value="selection">All</option>
+            </select>
+        </form>
+        <div class="searchbox">
+            <input type="text"name="box" placeholder="Search for Online Store,Category,Brands and more">
+            <div class="sicon">
+                <img src="Search icon (2).svg" alt="no image">
+            </div>
+            
+        </div>
+        <div class="right">
+            <div class="text">
+                <h6>Refer and Earn | Help and Support |</h6>
+            </div>
+        </div>
+        <div class="icon">
+                <img src="Mask Group.svg" alt="no image">
+                <i class="fa fa-chevron-down"></i>
+              </div>
+        </div>
+        <div class="navigation-bar">
+            <ul class="navbar">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+                <li><a href="#">Merchants</a></li>
+                <li><a href="#">Publishers</a></li>
+                <li><a href="http://www.medicento.com/#aboutus">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>     
+          <div class="sidebar">
+             <div class="logo">
+             <img src="medicento.svg" alt="no image">
+            </div>
+             <div class="grid">
+             <a href="#"><img src="grid.svg" alt="no image"></a><br>
+             Dashboard
+            </div>
+            <div class="campaign">
+             <img src="Campaign.svg" alt="no image"><br>
+             Campaign
+            </div>
+            <div class="coupan">
+                <img src="Coupan.svg" alt="no image"><br>
+                Coupan
+            </div>
+            <div class="chat">
+             <img src="chat.svg" alt="no image"><br>
+             Chat
+            </div>
+            <div class="traffic">
+             <img src="traffic.svg" alt="no image"><br>
+             Traffic
+            </div>
+            <div class="report">
+            <img src="report.svg" alt="no image"><br>
+            Report
+        </div>
+             <div class="arpdau">
+             <img src="arpdau.svg" alt="no image"><br>
+             ARPDAU
+            </div>
+            <div class="user">
+             <img src="user.svg" alt="no image"><br>
+             User
+            </div>
+            <div class="settings">
+             <img src="settings.svg" alt="no image"><br>
+             Settings
+            </div>
+             <img src="" alt="">
+          </div>
+          <div class="details">
+              <img src="Group 979.svg" alt="no image">
+          </div>
+            <div class="chats">
+                <img src="Group 568.svg" alt="no image">
+            </div>
+            <div class="campaigns">
+                <img src="Group 1010.svg" alt="no image">
+            </div>
+            <div class="du">
+                <img src="Group 720 (1).svg" alt="no image">
+            </div>
+            <div class="arp">
+                <img src="Group 975.svg" alt="">
+            </div>
+            <div class="charts">
+                <img src="Group 974.svg" alt="no image">
+            </div>
+            <div class="ccc">
+                <img src="Group 1068.svg" alt="no image">
+            </div>
+            <div class="barcharts">
+                <img src="Group 980.svg" alt="no image">
+            </div>
+            <div class="tokens">
+                <img src="Group 960.svg" alt="no image">
+            </div>
+            <div class="piecharts">
+                <img src="Group 978.svg" alt="no image">
+            </div>
+            <div class="footer">
+                <img src="Group 313.svg" alt="no image">
+            </div>
+</body>
+</html>
